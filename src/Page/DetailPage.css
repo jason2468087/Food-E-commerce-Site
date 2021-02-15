@@ -1,0 +1,151 @@
+.detail_tables{
+    position: relative;
+
+    padding:2% 10%;
+}
+
+.title_grid{
+    padding-left: 10%;
+    padding-right: 10%;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    align-items:center;
+    align-content: center;
+}
+
+.detail_food_title{
+    grid-column: span 3;
+
+    font-size: 3.5em;
+}
+
+.order_flex{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap:wrap;
+    align-items:center;
+    align-content: center;
+}
+
+.order_price{
+    color: grey;
+
+    font-size: 1.5em;
+}
+
+.order_button{
+    margin-left: 3%;
+    margin-right: 3%;
+
+    font-size: 1.5em;
+}
+
+.macro_nutrition_flex{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    align-items:center;
+    align-content: center;
+}
+
+.macro_nutrition{
+    font-size: 1.2em;
+}
+
+.label_grid{
+    display: grid;
+    grid-template-columns: 4cm auto;
+    grid-template-rows: auto auto auto;
+}
+
+.label_flex{
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap:wrap;
+    align-items:center;
+    align-content: center;
+}
+
+.label_title{
+    margin-right: 0.5cm;
+
+    text-align: left;
+    font-weight: bold;
+}
+
+.label_content{
+    margin-right:  0.5cm;
+}
+
+.label_content_caution{
+    margin-right:  0.5cm;
+
+    color:red;
+}
+
+.ingredient_list_container{
+    display: flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-items:center;
+    align-content: center;
+}
+
+.ingredient_list{
+    position: relative;
+}
+
+.nutrient_table_container{
+    display: flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-items:center;
+    align-content: center;
+}
+
+.nutrient_table{
+
+    border: 1px solid black;
+}
+
+.nutrient_label{
+    border: 1px solid black;
+    
+    padding:0px 10vw;
+}
+
+.nutrient_data{
+    border: 1px solid black;
+    padding: 0px 0.2cm;
+}
+
+@media (max-width: 570px){
+    .title_grid{
+        padding-left: 10%;
+        padding-right: 10%;
+    
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        align-items:center;
+        align-content: center;
+    }
+
+    .detail_food_title{
+        grid-column: span 2;
+    
+        font-size: 3.5em;
+    }
+
+    .order_flex{
+        grid-column: span 2;
+
+        display: flex;
+        justify-content: space-around;
+        flex-wrap:wrap;
+        align-items:center;
+        align-content: center;
+    }
+}

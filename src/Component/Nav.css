@@ -1,0 +1,73 @@
+.navigation_bar{
+    /*display:grid;
+    grid-template-columns: 3em auto auto auto;
+
+    
+    justify-content: center;
+    align-items: center;*/
+    position: relative;
+
+    background-color: hsl(122,92%,31%);
+}
+
+.homepage_link{
+    position: absolute;
+    top: 0.5em; left:2%;
+}
+
+.search_input{
+    width: 50vw;
+
+    padding: 0.2cm 0.3cm 0.2cm 0.3cm;
+    margin: 0.2cm 0.1cm 0.2cm 0.1cm;
+
+    font-size: 1.25em;
+}
+
+.website_icon{
+    width:3em;
+}
+
+.search_button{
+    height:0.8cm;
+
+    position: absolute;
+    top:0.3cm;
+
+    margin-left: 0.2cm;
+
+    border-radius: 10px;
+
+    font-size: 1.25em;
+
+    cursor: pointer;
+}
+
+.purchase_link{
+    position: absolute;
+    top: 0.5em; right:2%;
+}
+
+.cart_icon{
+    width:2.5em;
+}
+
+.cart_size{
+    width: 2.5em;
+    height:2.5em;
+
+    position: absolute;
+    bottom:0; right:0;
+
+    border-radius: 50%;
+
+    color:white;
+    background-color: red;
+
+    font-size: 0.5em;
+}
+
+.cart_size_empty{
+    color:transparent;
+    background-color: transparent;
+}

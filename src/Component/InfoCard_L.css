@@ -1,0 +1,58 @@
+.info_card_large{
+    
+    width: 6cm;
+
+    position:relative;
+
+    display: grid;
+    grid-template-columns: auto auto;
+
+    margin: 0.3cm;
+    padding: 0.3cm;
+
+    border: 1px solid grey;
+}
+
+.food_img_link{
+    grid-column: span 2;
+}
+
+.food_img{
+    grid-column: span 2;
+    width: 6cm;
+}
+
+.food_title_link{
+    grid-column: span 2;
+
+    color:black;
+}
+
+.food_title{
+    grid-column: span 2;
+    margin: 0.25cm;
+}
+
+.diet_label{
+    grid-column: span 2;
+
+    margin: 0.25cm;
+}
+
+.food_energy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0cm;
+
+    text-align: center;
+}
+
+.food_price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0cm;
+
+    text-align: center;
+}

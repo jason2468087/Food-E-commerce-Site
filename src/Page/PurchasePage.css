@@ -1,0 +1,18 @@
+.purchase_food_list{
+    margin:0.5cm;
+}
+
+.amount_pay_row{
+    margin:0.5cm;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.pay_button{
+    padding: 0.05cm 0.3cm;
+    margin-left: 0.3cm;
+
+    font-size: 1.5em;
+}

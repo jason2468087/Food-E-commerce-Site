@@ -1,0 +1,14 @@
+.row{
+    width:100%;
+}
+
+.info_list{
+    width:100%;
+
+    overflow: auto;
+
+    display: grid;
+    grid-template-columns: repeat(6,250px);
+    justify-items: center;
+    align-items:stretch;
+}

@@ -1,0 +1,97 @@
+.purchase_row_grid{
+    width:100%;
+
+    display: grid;
+    grid-template-columns: 3cm auto 3cm 2cm;
+    grid-template-rows: auto auto;
+}
+
+.purchase_food_icon{
+    width: 3cm;
+    
+    grid-row: span 2;
+}
+
+.purchase_food_title{
+    margin-left: 0.3cm;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.purchase_food_calories{
+    margin-left: 0.3cm;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.purchase_food_price{
+    grid-row: span 2;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.delete_button_container{
+    height:100%;
+    width:100%;
+
+    grid-row: span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete_button{
+    width:0.5cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 650px){
+    .purchase_row_grid{
+        width:100%;
+    
+        display: grid;
+        grid-template-columns: 3cm auto 2cm;
+        grid-template-rows: auto auto;
+    }
+
+    .purchase_food_title{
+        margin-left: 0.3cm;
+
+        grid-column: span 2;
+    
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .purchase_food_price{
+        grid-row: span 1;
+
+        margin-top: -0.3cm;
+        margin-left: 0.3cm;
+    
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .purchase_food_calories{
+        display: none;
+    }
+    
+    .delete_button{
+        width:0.5cm;
+        margin-top: -0.5cm;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
