@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Food-E-commerce-Site
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+![alt text](https://github.com/jason2468087/Food-E-commerce-Site/blob/main/README%20asset/Landing%20Page.png?raw=true)
 
-In the project directory, you can run:
+## Introduction
+Nutri-Food is an e-commerce website prototype aimed to provided detail nutrient fact and food delivery online. With Edamam online database and API, users can search among 700,000+ food item and inspect their nutrition details. Also, users can order and pay for the food online after inspection. The website provide graphical design to improve user experience.
 
-### `npm start`
+Link: https://nutri-food-ba0b3.web.app/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Dependencies
+- Reactjs 16.7.0
+- CSS 3
+- React Redux 7.1
+- Edamam API
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Skills
+- Local storage
+- Web API query
+- React state, props and hooks
+- React router and switch
+- Redux
 
-### `npm test`
+## Gallery
+A Searching Page for listing search result coresponding to user's query.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![alt text](https://github.com/jason2468087/Food-E-commerce-Site/blob/main/README%20asset/Search%20Page.png?raw=true)
 
-### `npm run build`
+Users can checkout the nutrition of food from search result. All necessary data is included. User can also add the food into the cart on this page. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![alt text](https://github.com/jason2468087/Food-E-commerce-Site/blob/main/README%20asset/Detail%20Page%201.png?raw=true)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![alt text](https://github.com/jason2468087/Food-E-commerce-Site/blob/main/README%20asset/Detail%20Page%202.png?raw=true)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Finalise the order on this page. All food in the cart are listed. A delete button is provided on the side for removing unwanted food from the cart.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![alt text](https://github.com/jason2468087/Food-E-commerce-Site/blob/main/README%20asset/Purchase%20Page.png?raw=true)
