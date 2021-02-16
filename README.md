@@ -22,16 +22,16 @@ Link: https://nutri-food-ba0b3.web.app/
 - Redux
 
 ## Gallery
-A Searching Page for listing search result coresponding to user's query.
+A Searching Page for listing search result corresponding to user's query.
 
 ![alt text](https://github.com/jason2468087/Food-E-commerce-Site/blob/main/README%20asset/Search%20Page.png?raw=true)
 
-Users can checkout the nutrition of food from search result. All necessary data is included. User can also add the food into the cart on this page. 
+Users can check out the nutrition of food. This page includes all the necessary data. User can also add the food to the cart on this page.
 
 ![alt text](https://github.com/jason2468087/Food-E-commerce-Site/blob/main/README%20asset/Detail%20Page%201.png?raw=true)
 
 ![alt text](https://github.com/jason2468087/Food-E-commerce-Site/blob/main/README%20asset/Detail%20Page%202.png?raw=true)
 
-Finalise the order on this page. All food in the cart are listed. A delete button is provided on the side for removing unwanted food from the cart.
+Finalise the order on this page. All foods in the cart are listed. A delete button is provided on the side for removing unwanted food from the cart.
 
 ![alt text](https://github.com/jason2468087/Food-E-commerce-Site/blob/main/README%20asset/Purchase%20Page.png?raw=true)
