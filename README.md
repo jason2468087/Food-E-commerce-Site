@@ -4,7 +4,7 @@
 ![alt text](https://github.com/jason2468087/Food-E-commerce-Site/blob/main/README%20asset/Landing%20Page.png?raw=true)
 
 ## Introduction
-Nutri-Food is an e-commerce website prototype aimed to provided detail nutrient fact and food delivery online. With Edamam online database and API, users can search among 700,000+ food item and inspect their nutrition details. Also, users can order and pay for the food online after inspection. The website provide graphical design to improve user experience.
+Nutri-Food is an e-commerce website prototype aimed to provided detail nutrient fact and food delivery online. With Edamam online database and API, users can search among 700,000+ food item and inspect their nutrition details. Also, users can order and pay for the food online after inspection. The website provides a graphical design to improve user experience.
 
 Link: https://nutri-food-ba0b3.web.app/
 
